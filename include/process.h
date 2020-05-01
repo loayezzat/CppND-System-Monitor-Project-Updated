@@ -21,8 +21,7 @@ class Process {
   long int UpTime();                       
   bool operator<(Process const& a) const;  
   void UpdateMemory();                       //assign memory utilization to ram_
-  static bool Compare (Process a , Process b ) ; 
-  static void ProcessSort(std::vector<Process> *v) ; 
+  static void ProcessSort(std::vector<Process> *v)  ; 
   
  private:
  int pid_ = 0;

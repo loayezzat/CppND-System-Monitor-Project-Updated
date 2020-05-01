@@ -57,6 +57,6 @@ void Process::UpdateMemory(){
 }
 
 //This Function sorts the vector in ascending order
-void Process::ProcessSort(std::vector<Process> *v) {
+void Process::ProcessSort(std::vector<Process> *v)  {
     std::sort(v->begin() , v->end() ) ; 
 }
